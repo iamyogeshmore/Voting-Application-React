@@ -1,3 +1,17 @@
+# Voting-Application
+
+- [ ] This code represents a small web application for a voting system built using the React framework. It includes components for admin login, user login, user registration, and the voting process.
+
+ The Admin component allows administrators to view candidate vote data in a tabular format. It retrieves the data from a server and displays it in a table. Administrators can also log out from this page.
+ 
+- [ ] The Login component is for user login. It provides a form for users to enter their email and password. Upon successful login, users are redirected to the Voting component.
+
+- [ ] The RegisterUser component allows new users to register by providing their name, email, password, and phone number. Upon successful registration, users can proceed to the Login component to log in.
+
+- [ ] The Voting component is where users can select a candidate and submit their vote. It fetches candidate data from the server and displays it as radio buttons. Users can select a candidate and click the "Vote" button to record their vote. Once a user has voted, they cannot vote again. The component also includes a "Logout" button for users to log out from the application.
+
+- [ ] The code demonstrates basic functionality for user and admin authentication, candidate data retrieval, and vote recording. It uses React hooks for managing state and axios for making HTTP requests to the server.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
