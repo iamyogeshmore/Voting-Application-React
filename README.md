@@ -2,7 +2,7 @@
 
 - [ ] This code represents a small web application for a voting system built using the React framework. It includes components for admin login, user login, user registration, and the voting process.
 
-The Admin component allows administrators to view candidate vote data in a tabular format. It retrieves the data from a server and displays it in a table. Administrators can also log out from this page.
+- [ ] The Admin component allows administrators to view candidate vote data in a tabular format. It retrieves the data from a server and displays it in a table. Administrators can also log out from this page.
  
 - [ ] The Login component is for user login. It provides a form for users to enter their email and password. Upon successful login, users are redirected to the Voting component.
 
